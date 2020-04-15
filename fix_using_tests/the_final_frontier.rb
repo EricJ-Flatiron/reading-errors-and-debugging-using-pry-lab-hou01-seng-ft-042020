@@ -13,5 +13,6 @@ end
 def engage
   date = generate_star_date
   eng = state_log(date)
+  eng = "/Captain's Log, star date /"
   eng
 end
